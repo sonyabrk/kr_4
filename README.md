@@ -25,7 +25,16 @@
 
 ### Шаги установки
 
-1. **Клонирование репозитория**
+**Клонирование репозитория**
    ```bash
    git clone https://github.com/sonyabrk/kr_4.git
    cd kr
+
+## Скриншоты
+
+### Главный экран
+![Главный экран](images/screenshot1.png)
+![Главный экран](images/screenshot2.png)
+
+### Мобильная версия  
+![Мобильная версия](images/screenshot3.png)
