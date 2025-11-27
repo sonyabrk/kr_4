@@ -29,8 +29,9 @@
    ```bash
    git clone https://github.com/sonyabrk/kr_4.git
    cd kr
+   ```
 
-
+## Скриншоты работы
 Главный экран: images/screenshot1.png, images/screenshot2.png
 
 Мобильная версия: images/screenshot3.png
