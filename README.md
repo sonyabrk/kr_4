@@ -28,4 +28,4 @@
 1. **Клонирование репозитория**
    ```bash
    git clone https://github.com/sonyabrk/kr_4.git
-   cd random-quotes-generator
+   cd kr
