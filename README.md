@@ -15,7 +15,7 @@
 - **Стилизация**: CSS3
 - **Язык**: JavaScript (ES6+)
 - **Управление состоянием**: React Hooks (useState)
-- **Сборка**: Create React App
+- **Сборка**: Vite
 
 ## Установка и запуск
 
