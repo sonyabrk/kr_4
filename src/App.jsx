@@ -4,10 +4,16 @@ import './App.css';
 
 function App() {
   const [currentQuote, setCurrentQuote] = useState(quotes[0]);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const getRandomQuote = () => {
-    const randomIndex = Math.floor(Math.random() * quotes.length);
-    setCurrentQuote(quotes[randomIndex]);
+    let newIndex;
+    do {
+      newIndex = Math.floor(Math.random() * quotes.length);
+    } while (newIndex === currentIndex && quotes.length > 1);
+    
+    setCurrentIndex(newIndex);
+    setCurrentQuote(quotes[newIndex]);
   };
 
   return (
